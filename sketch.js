@@ -20,7 +20,7 @@ function setup() {
 
 	// fairyVoice.play();
 
-	fairy = createSprite(130, 520);
+	fairy = createSprite(130, 550);
 	fairy.addAnimation("fairyflying",fairyImg);  
 	fairy.scale =0.25;
 
@@ -79,7 +79,7 @@ function keyPressed() {
 
 	
 	if(keyDown("RIGHT_ARROW")){
-		fairy.x=fairy.x+3.5;
+		fairy.x=fairy.x+5;
 	}
 
 	if(keyCode===DOWN_ARROW){
